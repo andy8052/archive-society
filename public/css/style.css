@@ -228,9 +228,13 @@ img.pip-hero {
 	width: 120px;
 }
 
-form {}
-
-#form {
+#test {
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+form {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -257,7 +261,7 @@ label {
 		z-index: 10
 }
 
-/* input[type=text], */
+input[type=text],
 textarea {
 	background: transparent;
 	border: none;
@@ -293,10 +297,10 @@ input[type=submit] {
 	font-family: 'VT323', Courier;
 	font-size: 1em;
 	margin-top: 20px;
-
 	margin-bottom: 20px;
 	opacity: 0.25;
-	padding: 10px 100px;
+	width: 100%;
+	/* padding: 10px 100px; */
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;

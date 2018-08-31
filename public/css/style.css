@@ -167,6 +167,7 @@ nav.site ul li {
 .col.two { width: auto; }
 
 .wrapper {
+	height: 100vh;
   animation: scroll 5s 1;
   margin: 0;
   overflow: hidden;
@@ -174,6 +175,7 @@ nav.site ul li {
 }
 
 .content {
+	height: 100vh;
 	animation: scroll 3s 1;
   overflow: hidden;
 	padding: 40px;
@@ -187,24 +189,36 @@ nav.site ul li {
 	margin-right: auto;
 	width: 50%;
 }
+
 .div-wrapper {
+		margin-top: 60px;
+		/* position: relative; */
+		/* bottom: 0; */
 		margin-left: auto;
 		margin-right: auto;
-    position: relative;
     height: 30px;
     width: 30px;
+		z-index: 11;
 }
 
-.div-wrapper img {
+/* .div-wrapper img {
     position: absolute;
-    bottom: 0;
-}
+    vertical-align: bottom;
+} */
+
 #timer {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
+
+/* footer {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 0;
+} */
 
 img.pip-hero {
 	display: block;
@@ -217,14 +231,10 @@ img.pip-hero {
 form {}
 
 #form {
-    /* height: 600px; */
     width: 50%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0px;
-    /* border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
-    /* padding: 0px; */
+    margin-top: 30px;
     text-align:center;
 }
 label {
@@ -273,8 +283,7 @@ a.button:focus {
 	outline: 0;
 }
 
-input[type=submit],
-a.button {
+input[type=submit] {
 	background: transparent;
 	border: 1px solid #00dd00;
 	clear: both;
@@ -283,6 +292,8 @@ a.button {
 	display: inline-block;
 	font-family: 'VT323', Courier;
 	font-size: 1em;
+	margin-top: 20px;
+
 	margin-bottom: 20px;
 	opacity: 0.25;
 	padding: 10px 100px;
@@ -292,11 +303,24 @@ a.button {
 	z-index: 10;
 }
 
-input[type=submit]:hover,
-a.button:hover {
+input[type=submit]:hover {
 	background: #00dd00;
 	color: #383838;
 	opacity: 0.8;
+}
+
+a.button {
+	background: transparent;
+	clear: both;
+	color: #00dd00;
+	cursor: hand;
+	display: inline-block;
+	font-family: 'VT323', Courier;
+	font-size: 1em;
+	margin-top: 20px;
+	opacity: 0.25;
+	position: relative;
+	z-index: 10;
 }
 
 .expandingArea { position: relative }

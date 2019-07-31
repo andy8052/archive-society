@@ -4,7 +4,12 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-alice-carousel": "^1.15.2",
+    "react-awesome-slider": "^1.0.1",
     "react-dom": "^16.8.6",
+    "react-grid-gallery": "^0.5.5",
+    "react-image-gallery": "^0.8.18",
+    "react-responsive-carousel": "^3.1.49",
     "react-scripts": "3.0.1",
     "video-react": "^0.14.0"
   },

@@ -190,8 +190,15 @@ nav.site ul li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	height: 100%;
 }
+
+#image-gallery {
+	height: 50%;
+	width: 100%;
+}
+
+
 
 .div-wrapper {
 		margin-top: 60px;

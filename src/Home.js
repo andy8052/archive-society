@@ -3,6 +3,7 @@ import LogoStickerGreen from './logostickergreen.png';
 import LadyGun from './ladygun.png';
 import WomenWrestling from './womenwrestlingfront.png';
 import HitAndMs from './hitandms.png';
+import WomenSleeve from './womenwrestlingsleeve.png';
 import InstaGreen from './insta-green.png';
 
 function Home() {
@@ -20,6 +21,10 @@ function Home() {
   return (
   <div className="body">
     <div className="wrapper">
+
+              <div class="sidebar">
+                <img src={WomenSleeve} width="200px" align="right" zIndex="10" />
+              </div>
       <div className="content clearfix">
           <header className="site clearfix">
             <div className="col two">
@@ -28,6 +33,7 @@ function Home() {
               <p>Coming Soon</p>
             </div>
           </header>
+
 
           <div className="col one" id="image-gallery">
             <img src={images[image]} alt="Archive Society" id="logo-v" />

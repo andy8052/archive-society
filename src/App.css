@@ -175,6 +175,7 @@ nav.site ul li {
   margin: 0;
   overflow: hidden;
   padding: 0;
+	position: relative;
 }
 
 .content {
@@ -182,7 +183,7 @@ nav.site ul li {
 	animation: scroll 3s 1;
   overflow: hidden;
 	padding: 40px;
-	position: relative;
+	position: absolute;
 	width: 100%;
 }
 

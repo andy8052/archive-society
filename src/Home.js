@@ -21,16 +21,16 @@ function Home() {
   return (
   <div className="body">
     <div className="wrapper">
-
-              <div class="sidebar">
-                <img src={WomenSleeve} width="200px" align="right" zIndex="10" />
-              </div>
+      <div class="sidebar">
+        <img src={WomenSleeve} width="200px" align="right" zIndex="10" />
+      </div>
       <div className="content clearfix">
           <header className="site clearfix">
             <div className="col two">
               <h1>Archive Society</h1>
               <p>---------------------</p>
-              <p>Coming Soon</p>
+              <div className="link"><a href="https://archivesociety.bigcartel.com/" className="link">Shop</a></div>
+              <div className="link">Mission</div>
             </div>
           </header>
 

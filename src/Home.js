@@ -43,17 +43,8 @@ function Home() {
             {page == 0 ? 
             <>
               <div className="col one" id="image-gallery">
-              <img src={images[image]} alt="Archive Society" id="logo-v" />
+                <img src={images[image]} alt="Archive Society" id="logo-v" />
               </div>
-
-              <form>
-                <div>
-                    <label>Email >></label><input type="text" />
-                    <div id="test">
-                      <input type="submit" value="Submit" />
-                    </div>
-                </div>
-              </form>
             </>  
             :
             <div className="col one" id="image-gallery">
@@ -148,3 +139,15 @@ function useInterval(callback, delay) {
 }
 
 export default Home;
+
+
+/*
+<form>
+                <div>
+                    <label>Email >></label><input type="text" />
+                    <div id="test">
+                      <input type="submit" value="Submit" />
+                    </div>
+                </div>
+              </form>
+              */
